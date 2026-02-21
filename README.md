@@ -198,7 +198,7 @@ Guide pratique et exemples d'utilisation des principaux outils de pentest dispon
 
 ```bash
 # Accès au container Kali
-ssh openclaw@54.37.157.8
+ssh user@10.10.10.1
 docker exec -it kali-linux /bin/bash
 
 # Vérifier un outil
