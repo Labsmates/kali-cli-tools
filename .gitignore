@@ -1,0 +1,44 @@
+# Kali CLI Tools - .gitignore
+
+# Scan results
+*.cap
+*.pcap
+*.csv
+*.xml
+*.json
+*.txt
+*.log
+
+# Except documentation
+!README.md
+!*.md
+
+# Bloodhound data
+*.zip
+computers.json
+users.json
+groups.json
+domains.json
+gpos.json
+ous.json
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Credentials (NEVER commit)
+*password*
+*credentials*
+api-keys.yaml
+.env
